@@ -25,8 +25,13 @@ This is a portfolio project to showcase a Python backend profile.
 
 ## Getting started
 
-Setup steps are not written yet. They will be added as the repository setup stories are completed:
+To run the project locally, follow [DEVELOPMENT.md](DEVELOPMENT.md). In short, with Docker installed:
 
-- Running everything with Docker.
-- Running the backend locally (Python version and dependencies).
-- Running the frontend locally (Node version and dependencies).
+```sh
+cp .env.example .env
+docker compose up --build
+```
+
+Then open http://localhost:5173.
+
+Running the backend and the frontend outside Docker is not documented yet; it will be added to [DEVELOPMENT.md](DEVELOPMENT.md) as the repository setup stories are completed.
