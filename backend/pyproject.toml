@@ -3,16 +3,16 @@ name = "booking-backend"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
-    "fastapi",
-    "uvicorn[standard]",
-    "sqlalchemy>=2",
-    "psycopg[binary]>=3",
+    "fastapi==0.162.5",
+    "uvicorn[standard]==0.54.0",
+    "sqlalchemy==2.1.8",
+    "psycopg[binary]==3.3.9",
 ]
 
 [dependency-groups]
 dev = [
-    "pytest",
-    "httpx",
+    "pytest==9.2.0",
+    "httpx==0.28.1",
 ]
 
 [tool.pytest.ini_options]
